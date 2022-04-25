@@ -10,6 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.JustAnApp">
         <activity
+            android:name=".ViewMovieDetailsActivity"
+            android:parentActivityName=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViewMoviesActivity"
+            android:parentActivityName=".MainActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
