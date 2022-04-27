@@ -19,17 +19,12 @@ class MainActivity : AppCompatActivity() {
 
         // tl.setOnClickListener { Toast.makeText(this, resources.getString(R.string.button_tl), Toast.LENGTH_SHORT).show() }
         tr.setOnClickListener { Toast.makeText(this, resources.getString(R.string.button_tr), Toast.LENGTH_SHORT).show() }
-        // bl.setOnClickListener { Toast.makeText(this, resources.getString(R.string.button_bl), Toast.LENGTH_SHORT).show() }
+        bl.setOnClickListener { Toast.makeText(this, resources.getString(R.string.button_bl), Toast.LENGTH_SHORT).show() }
         br.setOnClickListener { Toast.makeText(this, resources.getString(R.string.button_br), Toast.LENGTH_SHORT).show() }
     }
 
     fun viewMovies(view: View) {
         intent = Intent(this, ViewMoviesActivity::class.java)
-        startActivity(intent)
-    }
-
-    fun viewMovieDetails(view: View) {
-        intent = Intent(this, ViewMovieDetailsActivity::class.java)
         startActivity(intent)
     }
 }

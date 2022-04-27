@@ -4,6 +4,6 @@
     <string name="login">Login</string>
     <string name="button_tl">Movies</string>
     <string name="button_tr">Two</string>
-    <string name="button_bl">Movie Details</string>
+    <string name="button_bl">Three</string>
     <string name="button_br">Four</string>
 </resources>

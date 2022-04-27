@@ -11,7 +11,7 @@
         android:theme="@style/Theme.JustAnApp">
         <activity
             android:name=".ViewMovieDetailsActivity"
-            android:parentActivityName=".MainActivity"
+            android:parentActivityName=".ViewMoviesActivity"
             android:exported="false" />
         <activity
             android:name=".ViewMoviesActivity"
