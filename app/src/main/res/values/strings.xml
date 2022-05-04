@@ -3,8 +3,9 @@
     <string name="helper_text">Type something here...</string>
     <string name="login">Login</string>
     <string name="button_tl">Movies</string>
-    <string name="button_tr">Two</string>
+    <string name="button_tr">Live Cams</string>
     <string name="button_bl">Three</string>
     <string name="button_br">Four</string>
     <string name="screen_reader_label">This label should be readable by screen readers.</string>
+    <string name="cams_list_title">Cams</string>
 </resources>
