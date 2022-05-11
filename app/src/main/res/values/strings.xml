@@ -4,8 +4,10 @@
     <string name="login">Login</string>
     <string name="button_tl">Movies</string>
     <string name="button_tr">Live Cams</string>
-    <string name="button_bl">Three</string>
+    <string name="button_bl">Maps</string>
     <string name="button_br">Four</string>
     <string name="screen_reader_label">This label should be readable by screen readers.</string>
     <string name="cams_list_title">Cams</string>
+    <string name="title_activity_traffic_camera_map">TrafficCameraMap</string>
+    <string name="title_activity_traffic_camera">TrafficCameraActivity</string>
 </resources>

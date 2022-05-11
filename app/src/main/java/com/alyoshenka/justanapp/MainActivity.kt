@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         val bl = findViewById<Button>(R.id.button_bl)
         val br = findViewById<Button>(R.id.button_br)
 
-        bl.setOnClickListener { Toast.makeText(this, resources.getString(R.string.button_bl), Toast.LENGTH_SHORT).show() }
+        bl.setOnClickListener { startActivity(Intent(this, TrafficCameraMapActivity::class.java)) }
         br.setOnClickListener { Toast.makeText(this, resources.getString(R.string.button_br), Toast.LENGTH_SHORT).show() }
     }
 
