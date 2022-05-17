@@ -19,9 +19,13 @@ import android.content.SharedPreferences
 import android.widget.TextView
 import androidx.core.content.ContextCompat.startActivity
 import com.google.firebase.auth.AuthResult
+import com.google.firebase.auth.ktx.auth
+import com.google.firebase.ktx.Firebase
 
 
 class MainActivity : AppCompatActivity() {
+
+    private lateinit var auth: FirebaseAuth
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -32,6 +36,8 @@ class MainActivity : AppCompatActivity() {
 
         bl.setOnClickListener { startActivity(Intent(this, TrafficCameraMapActivity::class.java)) }
         br.setOnClickListener { Toast.makeText(this, resources.getString(R.string.button_br), Toast.LENGTH_SHORT).show() }
+
+        auth = Firebase.auth
     }
 
     fun viewMovies(view : View) {
