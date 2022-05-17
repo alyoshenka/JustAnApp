@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "918571089084",
+    "firebase_url": "https://ad340-24b27.firebaseio.com",
+    "project_id": "ad340-24b27",
+    "storage_bucket": "ad340-24b27.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:38362596709:android:6991aefd2a2ab0751b0d8c",
+        "android_client_info": {
+          "package_name": "com.alyoshenka.justanapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "38362596709-k43m27o2b25c6rp3j46t4d90ruv3u0l2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvMD1G4-l9ahX0r9Jwb-1W3sohJA1-6NY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "38362596709-k43m27o2b25c6rp3j46t4d90ruv3u0l2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">JustAnApp</string>
-    <string name="helper_text">Type something here...</string>
+    <string name="username_helper">Enter a username</string>
+    <string name="email_helper">Enter your email</string>
+    <string name="password_helper">Enter a password</string>
     <string name="login">Login</string>
     <string name="button_tl">Movies</string>
     <string name="button_tr">Live Cams</string>
